@@ -1,0 +1,28 @@
+@import "../../../styles/mediaquery";
+@import "../../../styles/pxToRem";
+@import "../../../styles/variables";
+
+.button {
+  align-items: center;
+  appearance: none;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 14%), 0 2px 1px -1px rgb(0 0 0 / 12%),
+    0 1px 3px 0 rgb(0 0 0 / 20%);
+  background-color: $colorPrimaryWhite;
+  color: $colorPrimaryBlack;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: pxToRem(18);
+  font-weight: bold;
+  height: pxToRem(50);
+  justify-content: flex-start;
+  line-height: 1;
+  overflow: hidden;
+  font-weight: bold;
+  padding: 0 pxToRem(20);
+  position: relative;
+  vertical-align: top;
+  width: max-content;
+}
