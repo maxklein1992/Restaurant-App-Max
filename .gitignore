@@ -5,3 +5,4 @@
 
 # misc
 ./client/.env.local
+./client/.next
