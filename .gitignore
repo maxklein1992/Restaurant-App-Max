@@ -4,5 +4,5 @@
 /client/node_modules
 
 # misc
-./client/.env.local
-./client/.next
+/client/.env.local
+/client/.next.local
